@@ -4,6 +4,8 @@ I am a handle bars like templating engine for .NET.
 Temptress uses the `{{var}}` type syntax for replacing text with values.
 A big push for this project is that messages are strongly typed and verifiable*(TODO)* against the template.
 
+> Requires the reflection helper library [Philosphical Monkey](https://github.com/dburriss/PhilosophicalMonkey).
+
 ## Basic Usage
 
 With the following POCO classes defined:
