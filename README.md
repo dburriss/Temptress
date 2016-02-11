@@ -1,5 +1,8 @@
 # Temptress
-I am a handle bars like templating engine for .NET
+I am a handle bars like templating engine for .NET.
+
+Temptress uses the `{{var}}` type syntax for replacing text with values.
+A big push for this project is that messages are strongly typed and verifiable*(TODO)* against the template.
 
 ## Basic Usage
 
@@ -32,5 +35,5 @@ Then you can render the template with whatever data you like, reusing the same t
 Then rendering the content:
 
     var message = new WelcomeMessage(){ FullName = "Devon", Address = new Address{ StreetNumber = 5, StreetName = "Main"} };
-    renderer.Render(message);
+    var messageText = renderer.Render(message);
     
