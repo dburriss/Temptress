@@ -1,0 +1,30 @@
+{
+  "version": "1.0.0-*",
+  "description": "Temptress.UnitTests Class Library",
+  "authors": [ "Devon" ],
+  "tags": [ "" ],
+  "projectUrl": "",
+  "licenseUrl": "",
+
+  "dependencies": {
+    "Temptress": "1.0.0-*",
+    "Temptress.TestMessages": "1.0.0-*",
+    "xunit": "2.1.0",
+    "xunit.runner.dnx": "2.1.0-rc1-build204"
+  },
+  
+  "commands": {
+    "test": "xunit.runner.dnx"
+  },
+  
+  "frameworks": {
+    "dnx46": {
+      "frameworkAssemblies": {
+        "System.Runtime": "",
+        "System.ComponentModel.DataAnnotations": "",
+        "System.Threading.Tasks": ""
+      }
+    }
+  }
+  
+}
