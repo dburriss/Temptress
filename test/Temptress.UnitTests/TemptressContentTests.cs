@@ -183,7 +183,7 @@ namespace Temptress.UnitTests
             Assert.NotNull(content);
         }
 
-        [Fact]
+        [Fact(Skip = "Performance check. Could fail on very slow machine.")]
         public void Render_FullName10000Times_InUnderHalfSecond()
         {
             int occurances = 10000;
@@ -203,7 +203,7 @@ namespace Temptress.UnitTests
             Assert.True(elapsedSpan.TotalSeconds < 0.5);
         }
 
-        [Fact]
+        [Fact(Skip = "Performance check. Could fail on very slow machine.")]
         public void Render_FourMergeOptions2500Times_InUnderHalfSecond()
         {
             int occurances = 2500;
@@ -226,7 +226,7 @@ namespace Temptress.UnitTests
             Assert.True(elapsedSpan.TotalSeconds < 0.5);
         }
 
-        [Fact]
+        [Fact(Skip = "Performance check. Could fail on very slow machine.")]
         public void Render_FourMergeOptions2500TimesTwice_InUnderOneSecond()
         {
             int occurances = 2500;

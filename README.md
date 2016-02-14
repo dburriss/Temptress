@@ -8,6 +8,9 @@ A big push for this project is that messages are strongly typed and verifiable*(
 
 ## Basic Usage
 
+Install via Nuget
+> `Install-Package Temptress -Pre`
+
 With the following POCO classes defined:
 
     public class WelcomeMessage

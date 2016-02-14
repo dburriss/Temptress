@@ -1,4 +1,4 @@
-﻿using ChimpLab.PhilosophicalMonkey;
+﻿using PhilosophicalMonkey;
 using System;
 using System.Collections;
 using System.Collections.Generic;
